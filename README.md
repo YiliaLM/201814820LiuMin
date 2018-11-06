@@ -11,4 +11,4 @@ Experiments:<br>
 Preprocess.py firstly preprocesses the whole dataset which including word tokenization,stemming and removing the stopwords.Then the dataset was divided into five groups of different trainsets and testsets by 8:2.<br>
 createDict.py constructed a dictionary on one of the trainsets, where the dictionary was shown in dict.txt.Then filtered out the words in the trainset and testset that didn't appear in the dictionary.<br>
 VSM.py computed the tfidf weight on both trainset and testset and obtained their VSM representation.<br>
-Finally KNN.py implementedthe KNN algorithm.<br>
+Finally KNN.py implemented the KNN algorithm.<br>
