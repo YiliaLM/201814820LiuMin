@@ -12,3 +12,6 @@ Preprocess.py firstly preprocesses the whole dataset which including word tokeni
 createDict.py constructed a dictionary on one of the trainsets, where the dictionary was shown in dict.txt.Then filtered out the words in the trainset and testset that didn't appear in the dictionary.<br>
 VSM.py computed the tfidf weight on both trainset and testset and obtained their VSM representation.<br>
 Finally KNN.py implemented the KNN algorithm.<br>
+Homework2:NBC
+---
+实现朴素贝叶斯分类器，测试其在20 Newsgroups数据集上的效果<br>
