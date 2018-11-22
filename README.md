@@ -1,7 +1,6 @@
-Data Mining Homeworks
-===
-Homework1:VSM and KNN
----
+Data Mining Homeworks<br>
+<br>
+Homework1:VSM and KNN<br>
 1.预处理文本数据集，并且得到每个文本的VSM表示<br>
 2.实现KNN分类器，测试其在20news-18828上的分类效果<br>
 Dataset:<br>
@@ -12,8 +11,8 @@ Preprocess.py firstly preprocesses the whole dataset which including word tokeni
 createDict.py constructed a dictionary on one of the trainsets, where the dictionary was shown in dict.txt.Then filtered out the words in the trainset and testset that didn't appear in the dictionary.<br>
 VSM.py computed the tfidf weight on both trainset and testset and obtained their VSM representation.<br>
 Finally KNN.py implemented the KNN algorithm.<br>
-Homework2:NBC
----
+
+Homework2:NBC<br>
 实现朴素贝叶斯分类器，测试其在20 Newsgroups数据集上的效果<br>
 Dataset:同Homework1<br>
 Experiments:<br>
