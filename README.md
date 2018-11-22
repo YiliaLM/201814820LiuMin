@@ -15,3 +15,6 @@ Finally KNN.py implemented the KNN algorithm.<br>
 Homework2:NBC
 ---
 实现朴素贝叶斯分类器，测试其在20 Newsgroups数据集上的效果<br>
+Dataset:同Homework1<br>
+Experiments:<br>
+NB.py fristly counted the total number of words in each category and the number of times each word appears in the train samples.Then calculated the probability to determine which category the test sample belongs to.Finally computed the accuracy of NBC.<br>
