@@ -17,3 +17,9 @@ Homework2:NBC<br>
 Dataset:同Homework1<br>
 Experiments:<br>
 NB.py fristly counted the total number of words in each category and the number of times each word appears in the train samples.Then calculated the probability to determine which category the test sample belongs to.Finally computed the accuracy of NBC.<br>
+
+Homework3:Clustering with sklearn<br>
+测试sklearn中8种聚类算法在tweets数据集上的聚类效果,使用NMI(Normalized Mutual Information)作为评价指标<br>
+Dataset:Tweets.txt(详见Homework3文件夹中Tweets.txt)<br>
+Experiments:<br>
+Clustering.py implemented eight clustering algorithms with sklearn.<br>
