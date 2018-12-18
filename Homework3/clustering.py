@@ -64,7 +64,7 @@ if __name__ == '__main__':
         texts.append(tweets['text'])
         labels.append(tweets['cluster'])
 
-    k = len(Counter(labels))  # k为总类别数:89
+    k = len(Counter(labels))  # k为总类别数
 
     vectorizer = CountVectorizer()  # 该类会将文本中的词语转换为词频矩阵，矩阵元素a[i][j] 表示j词在i类文本下的词频
     transformer = TfidfTransformer()  # 该类会统计每个词语的tf-idf权值
